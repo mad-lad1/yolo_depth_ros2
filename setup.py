@@ -21,7 +21,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'yolo = yolo.yolo_node:main'
+            'yolo = yolo.yolo_node:main',
+            'zed_capture = yolo.zed_capture:main'
         ],
     },
 )
